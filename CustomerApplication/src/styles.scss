@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+table {
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 2px solid #a23fff;
+    background: #7dfc88;
+    padding: 40px;
+}
+tr, td {
+    padding: 10px;
+}
+a {
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+input {
+    padding: 5px;
+    margin: 5px;
+}
+.main-content {
+    padding: 25px;
+    min-height: 300px;
+    color: #16025c;
+    font-size: 20px;
+    text-align: center;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    margin: 10px 250px;
+}
+.footer {
+    font-size: 20px;
+    color: #2906a8;
+    padding-top: 50px;
+    text-align: center;
+}
