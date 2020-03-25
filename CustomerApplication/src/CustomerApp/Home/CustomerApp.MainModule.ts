@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { MasterComponent } from './CustomerApp.MasterComponent';
 import { HomeComponent } from './CustomerApp.HomeComponent';
 import { MainRoutes } from '../Routing/CustomerApp.MainRouting';
+import { BaseLogger, ConsoleLogger, DbLogger, FileLogger } from '../Utility/CustomerApp.Logger';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,14 @@ import { MainRoutes } from '../Routing/CustomerApp.MainRouting';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    {
+    provide: BaseLogger,
+    useClass: ConsoleLogger
+  },
+  {provide: '1', useClass: DbLogger},
+  {provide: '2', useClass: FileLogger}
+],
   bootstrap: [MasterComponent]
 })
 
