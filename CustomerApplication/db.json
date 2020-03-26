@@ -1,0 +1,64 @@
+{
+  "Customers": [
+    {
+      "id": 1,
+      "CustomerCode": 7785,
+      "CustomerName": "john",
+      "CustomerAmount": 78555
+    },
+    {
+      "id": 2,
+      "CustomerCode": 5896,
+      "CustomerName": "bbs",
+      "CustomerAmount": 7555
+    },
+    {
+      "id": 3,
+      "CustomerCode": 2254,
+      "CustomerName": "jshol",
+      "CustomerAmount": 4478
+    },
+    {
+      "CustomerCode": "4475",
+      "CustomerName": "Bhuwan",
+      "CustomerAmount": "41557",
+      "id": 4
+    },
+    {
+      "CustomerCode": "4177",
+      "CustomerName": "Marsh Wick",
+      "CustomerAmount": "4221",
+      "id": 5
+    },
+    {
+      "CustomerCode": "5547",
+      "CustomerName": "Mr. Wick",
+      "CustomerAmount": "715",
+      "id": 6
+    },
+    {
+      "CustomerCode": "5547",
+      "CustomerName": "Broh",
+      "CustomerAmount": "4775",
+      "id": 7
+    },
+    {
+      "CustomerCode": "5547",
+      "CustomerName": "Jordy",
+      "CustomerAmount": "415",
+      "id": 8
+    },
+    {
+      "CustomerCode": "4512",
+      "CustomerName": "shiv",
+      "CustomerAmount": "441",
+      "id": 9
+    },
+    {
+      "CustomerCode": "4778",
+      "CustomerName": "Kumar abhishek",
+      "CustomerAmount": "22658",
+      "id": 10
+    }
+  ]
+}

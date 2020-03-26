@@ -16,6 +16,8 @@
     Customer name is required
 </div>
 
+<input [disabled]="Disable" type="button" value="send to server" (click)="PostToServer()">
+<input type="button" value="Get Data from Server" (click)="GetFromServer()">
 
 <grid-ui 
     [grid-columns]="[{'colName': 'CustomerCode'},{'colName': 'CustomerName'},{'colName': 'CustomerAmount'}]"

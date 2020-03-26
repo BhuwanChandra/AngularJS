@@ -18,7 +18,7 @@ export class Customer {
     // tslint:disable-next-line:no-inferrable-types
     CustomerName: string = '';
     // tslint:disable-next-line:no-inferrable-types
-    CustomerAmount: number = 0;
+    CustomerAmount: string = '';
     formCustomerGroup: FormGroup = null;
     constructor() {
         const builder = new FormBuilder();
