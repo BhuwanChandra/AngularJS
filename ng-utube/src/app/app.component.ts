@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Todo } from './todo';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,29 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-utube';
+
+  todoValue: string;
+  list: Todo[];
+
+  // tslint:disable-next-line:use-lifecycle-interface
+  ngOnInit() {
+    this.list = [];
+    this.todoValue = '';
+  }
+
+  addItem() {
+    if (this.todoValue !== '') {
+      const newItem: Todo = {
+        id: Date.now(),
+        value: this.todoValue,
+        isDone: false
+      };
+      this.list.push(newItem);
+    }
+    this.todoValue = '';
+  }
+
+  deleteItem(id: number) {
+    this.list = this.list.filter(item => item.id !== id);
+  }
 }
