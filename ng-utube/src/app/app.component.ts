@@ -7,7 +7,7 @@ import { Todo } from './todo';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-utube';
+  title = 'Angular Todo List';
 
   todoValue: string;
   list: Todo[];
